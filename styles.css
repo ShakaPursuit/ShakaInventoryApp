@@ -11,3 +11,25 @@ grid-template-areas:
     grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
+
+
+div.scroll{
+    background-image: url("./_8a907431-2796-4e59-ac05-577eac6cb4c5.jpeg");
+    justify-content: stretch;
+    opacity: 30%;
+
+}
+
+tbody#subCart{text-decoration-thickness: 200px; color:black; font-size: large;}
+#container {
+      
+  background-image: url("./_8a907431-2796-4e59-ac05-577eac6cb4c5.jpeg");
+  justify-content: stretch;
+  background-position: bottom;
+  
+}
+
+h1 {
+    text-align: center;
+    grid-area: header;
+  }
