@@ -1,0 +1,13 @@
+*{margin:0;}
+
+body{
+font-family: Areil, sans-serif;
+display:grid;
+
+grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+    grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
