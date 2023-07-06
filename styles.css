@@ -1,35 +1,123 @@
-*{margin:0;}
+*{margin: 0 ;}
+body {
+    font-family: Arial, sans-serif;
 
-body{
-font-family: Areil, sans-serif;
-display:grid;
+    display: grid;
 
-grid-template-areas: 
+    grid-template-areas: 
     "header header header header"
     "main main main main"
     "footer footer footer footer";
     grid-row: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* display:flex;
+    flex-direction: column;
+    max-width: auto; */
+    /* min-width: 320px; */
+    
+    
+    
 
-}
+  }
 
-
-div.scroll{
-    background-image: url("./_8a907431-2796-4e59-ac05-577eac6cb4c5.jpeg");
+  div.scroll {
+      
+    background-image: url("./_assets_/_8a907431-2796-4e59-ac05-577eac6cb4c5.jpeg");
     justify-content: stretch;
     opacity: 30%;
-
-}
-
+  
+ }
+ 
 tbody#subCart{text-decoration-thickness: 200px; color:black; font-size: large;}
 #container {
       
-  background-image: url("./_8a907431-2796-4e59-ac05-577eac6cb4c5.jpeg");
+  background-image: url("./_assets_/_8a907431-2796-4e59-ac05-577eac6cb4c5.jpeg");
   justify-content: stretch;
   background-position: bottom;
   
 }
-
-h1 {
+  
+  h1 {
     text-align: center;
     grid-area: header;
   }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+
+  div{padding: 10px;border: 2px solid black;
+
+height: 700px;width: auto;
+}
+
+main{text-align: left;border:2px solid red
+; grid-area:footer ;margin: 0;display:inline-block}
+
+form#sneaker-form{grid-column-start: 3;}
+
+.sneaker-pics{ display: grid; width:fit-content}
+div.sneaker-pics{justify-content: flex-start;}
+
+.p3{border:2px dotted darkblue }
+div.sneaker-pics{grid: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+height: 700px;}
+
+figcaption{text-align:center}
+
+.p1,.p2,.p3,.p4,.p5{height:45px}
+.p6,.p7,.p8,.p9,.p10{height:45px}
+.p11,.p12,.p13,.p14,.p15{height:45px}
+
+div.sneaker-pics{text-align:left ;font-size: smaller;}
+.sneaker-pics figcaption:hover {
+  color: #00ff1a;
+  text-decoration: underline;
+  text-decoration-style:solid;
+  transition: color 0.1s ease-in;
+  
+}
+.container{justify-items: auto;}
+body {
+  background-image: url("./_assets_/55.jpeg");
+  background-color: #cccccc;
+  
+  image-resolution: 1000mpx;
+  background-size: 2000px;
+
+ background-blend-mode: hard-light;
+  
+}
+
+#cart
+{
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+#cart td
+{
+  border: 0px 1px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #f8f8ffef;
+}
+
+.p1{background-color: #f8f8ffef;}
+
